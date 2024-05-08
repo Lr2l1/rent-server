@@ -1,7 +1,5 @@
 package rentServer.user;
 
-import rentServer.user.User;
-
 public class UserResponseDto {
 
 	private String id;
