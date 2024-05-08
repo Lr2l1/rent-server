@@ -50,14 +50,12 @@ public class UserDao {
 		List<UserResponseDto> list = new ArrayList<UserResponseDto>();
 		
 		try {
-			// 쿼리할 준비 
+
 			String sql = "SELECT id, email, name, birth, gender, country, telecom, phone, agree FROM users";
 			pstmt = conn.prepareStatement(sql);
 			
-			// 쿼리 실행 
 			rs = pstmt.executeQuery();
 			
-			// 튜플 읽기 
 			while(rs.next()) {
 				String id = rs.getString(1);
 				String email = rs.getString(2);
