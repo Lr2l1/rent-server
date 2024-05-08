@@ -20,7 +20,7 @@ public class UserResponseDto {
 		this.telecom = telecom;
 		this.phone = phone;
 	}
-
+	
 	public UserResponseDto(String id, String email, String name, String birth, String gender, String telecom,
 			String phone) {
 		super();
@@ -101,7 +101,6 @@ public class UserResponseDto {
 
 	@Override
 	public String toString() {
-
 		return String.format("%dss/%d/%d", this.id, this.name, this.email);
 	}
 }

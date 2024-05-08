@@ -211,8 +211,7 @@ public class UserDao {
 			return true;
 		} catch (SQLException e) {
 			e.printStackTrace();
-		}
-		
+		}		
 		return false;
 	}
 	

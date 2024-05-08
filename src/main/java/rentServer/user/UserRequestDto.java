@@ -14,7 +14,6 @@ public class UserRequestDto {
 
 
 	public UserRequestDto() {
-
 	}
 
 	public UserRequestDto(String id, String password, String name, String birth, String gender, 
