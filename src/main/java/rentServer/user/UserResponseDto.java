@@ -3,7 +3,6 @@ package rentServer.user;
 public class UserResponseDto {
 
 	private String id;
-
 	private String email;
 	private String name;
 	private String birth;
