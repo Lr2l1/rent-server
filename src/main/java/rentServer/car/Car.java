@@ -14,8 +14,6 @@ public class Car {
 	private Timestamp modDate;
 	
 	
-	
-
 	public Car(String code, String name, String brand, String type, String fuel, String seater, String price,
 			Timestamp regDate, Timestamp modDate) {
 		super();
