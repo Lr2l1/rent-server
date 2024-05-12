@@ -32,7 +32,7 @@ public class UserDao {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
-			String url = "jdbc:mysql://localhost:3306/board_server_db";		
+			String url = "jdbc:mysql://localhost:3306/rent_server_db";		
 			String user = "root";		
 			String password = "root";		
 			
