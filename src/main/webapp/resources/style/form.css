@@ -34,7 +34,7 @@ form > input[type="submit"] {
 	margin: 0;
 	border: none;
 	border-radius: 10px;
-	background-color: #0aaa5c;
+	background-color: #222831;
 }
 
 form > div > select {
@@ -64,7 +64,7 @@ form > div > input:focus,
 form > div > select:focus,
 form > div > input:last-child:focus
 {
-	border: solid 1px #0aaa5c;
+	border: solid 1px #222831;
 }
 
 form > div > input:focus + input, 
@@ -105,7 +105,7 @@ form > div > input:last-child {
 #country-local:checked ~ div > #country-local-label, 
 #country-foreigner:checked ~ div > #country-foreigner-label
 {
-	color: #0aaa5c;
+	color: #222831;
 }
 
 label > div {
@@ -145,6 +145,6 @@ label:last-child > div {
 }
 
 #agree-label > p > b {
-	color: #0aaa5c;
+	color: #222831;
 	font-weight: bold;
 }

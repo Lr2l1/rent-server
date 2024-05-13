@@ -17,7 +17,7 @@
 
 	<servlet>
 		<servlet-name>deleteUserAction</servlet-name>
-		<servlet-class>boardServer.user.model.controller.DeleteFormAction</servlet-class>
+		<servlet-class>boardServer/user/model/controller/DeleteFormAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>deleteUserAction</servlet-name>
@@ -25,7 +25,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>joinFormAction</servlet-name>
-		<servlet-class>boardServer.user.model.controller.JoinFormAction</servlet-class>
+		<servlet-class>boardServer/user/model/controller/JoinFormAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>joinFormAction</servlet-name>
@@ -33,7 +33,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>loginFormAction</servlet-name>
-		<servlet-class>boardServer.user.model.controller.LoginFormAction</servlet-class>
+		<servlet-class>boardServer/user/model/controller/LoginFormAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>loginFormAction</servlet-name>
@@ -41,7 +41,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>logoutAction</servlet-name>
-		<servlet-class>boardServer.user.model.controller.LogoutAction</servlet-class>
+		<servlet-class>boardServer/user/model/controller/LogoutAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>logoutAction</servlet-name>
@@ -49,7 +49,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>updateUserFormAction</servlet-name>
-		<servlet-class>boardServer.user.model.controller.UpdateUserFormAction</servlet-class>
+		<servlet-class>boardServer/user/model/controller/UpdateUserFormAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>updateUserFormAction</servlet-name>
@@ -57,12 +57,14 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>findUserFormAction</servlet-name>
-		<servlet-class>boardServer.user.model.controller.FindUserFormAction</servlet-class>
+		<servlet-class>boardServer/user/model/controller/FindUserFormAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>findUserFormAction</servlet-name>
 		<url-pattern>/search/user</url-pattern>
 	</servlet-mapping>
+	
+	
 	<!-- JSP files mapping -->
 	<servlet>
 		<servlet-name>header</servlet-name>
@@ -72,6 +74,7 @@
 		<servlet-name>header</servlet-name>
 		<url-pattern>/header</url-pattern>
 	</servlet-mapping>
+	
 	<servlet>
 		<servlet-name>footer</servlet-name>
 		<jsp-file>/views/module/footer.jsp</jsp-file>
@@ -80,6 +83,7 @@
 		<servlet-name>footer</servlet-name>
 		<url-pattern>/footer</url-pattern>
 	</servlet-mapping>
+	
 	<servlet>
 		<servlet-name>viewAll</servlet-name>
 		<jsp-file>/views/car/viewAll.jsp</jsp-file>
@@ -88,6 +92,7 @@
 		<servlet-name>viewAll</servlet-name>
 		<url-pattern>/viewAll</url-pattern>
 	</servlet-mapping>
+	
 	<servlet>
 		<servlet-name>mainMyPage</servlet-name>
 		<jsp-file>/views/myPage/mainMyPage.jsp</jsp-file>
@@ -96,6 +101,7 @@
 		<servlet-name>mainMyPage</servlet-name>
 		<url-pattern>/mainMyPage</url-pattern>
 	</servlet-mapping>
+	
 	<servlet>
 		<servlet-name>login</servlet-name>
 		<jsp-file>/views/user/login.jsp</jsp-file>
@@ -104,6 +110,7 @@
 		<servlet-name>login</servlet-name>
 		<url-pattern>/login</url-pattern>
 	</servlet-mapping>
+	
 	<servlet>
 		<servlet-name>join</servlet-name>
 		<jsp-file>/views/user/join.jsp</jsp-file>
@@ -112,6 +119,7 @@
 		<servlet-name>join</servlet-name>
 		<url-pattern>/join</url-pattern>
 	</servlet-mapping>
+	
 	<servlet>
 		<servlet-name>updateUser</servlet-name>
 		<jsp-file>/views/user/updateUser.jsp</jsp-file>
@@ -120,6 +128,7 @@
 		<servlet-name>updateUser</servlet-name>
 		<url-pattern>/updateUser</url-pattern>
 	</servlet-mapping>
+	
 	<servlet>
 		<servlet-name>deleteUser</servlet-name>
 		<jsp-file>/views/user/deleteUser.jsp</jsp-file>

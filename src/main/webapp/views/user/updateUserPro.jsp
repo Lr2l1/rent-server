@@ -20,7 +20,7 @@ UserResponseDto user = (UserResponseDto) session.getAttribute("user");
 
 String password = request.getParameter("password");
 
-// 입력된 패스워드 검증 후, 
+
 if(userDao.findUserByIdAndPassword(user.getId(), password) != null) {
 	UserRequestDto userDto = new UserRequestDto();
 	

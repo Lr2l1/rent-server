@@ -9,11 +9,10 @@
 </head>
 <body>
 
-	<c:if test="${empty board }">
-		<c:redirect url="login"></c:redirect>
-	</c:if>
+	<input type="text" id="title" name="title" placeholder="제목">
+	<input type="text" id="detail" name="detail" >
 	
-	<button>글쓰기</button>
+	<input type="submit" value="글쓰기">
 </body>
 <jsp:include page="/footer" />
 </html>
